@@ -1,0 +1,69 @@
+/* ==========================================================
+   EXTERNAL CSS (style.css) - Laboratory Exercise #6
+   Color palette (5 colors only):
+   Deep purple  #6a1b9a
+   Lavender     #f3e5f5
+   White        #ffffff
+   Dark plum    #3b2a4d
+   Pink         #c2185b
+   ========================================================== */
+
+/* ELEMENT SELECTOR #1 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    color: #3b2a4d;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ELEMENT SELECTOR #2 */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* ID SELECTOR */
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #6a1b9a;
+    border-radius: 10px;
+}
+
+/* GROUP SELECTOR */
+h2, strong {
+    color: #6a1b9a;
+}
+
+/* CLASS SELECTOR */
+.section {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* DESCENDANT SELECTOR */
+.section p {
+    text-align: justify;
+}
+
+/* ID SELECTOR (fun fact) */
+#fun-fact {
+    border: 2px solid #c2185b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* LINKS + PSEUDO-CLASS SELECTOR */
+a {
+    color: #6a1b9a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c2185b;
+    text-decoration: underline;
+}
